@@ -9,7 +9,7 @@
 :root {
   --bg: #0a0f1a; --bg2: #111827; --card: #1a2234; --border: #2a3548;
   --text: #e2e8f0; --muted: #8892a4; --accent: #60a5fa; --accent2: #a78bfa;
-  --accent3: #34d399; --accent4: #fbbf24; --accent5: #f87171;
+  --accent3: #34d399; --accent4: #fbbf24; --accent5: #f87171; --accent6: #fb923c;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
@@ -126,7 +126,7 @@ footer { text-align:center; padding:3rem 2rem; border-top:1px solid var(--border
   .nav-links a { padding:0.3rem 0.5rem; font-size:0.7rem; }
   .section { padding:3rem 1.2rem; }
   .hero { min-height:auto; padding-top:2rem; }
-  .stats-bar { grid-template-columns: repeat(3,1fr); }
+  .stats-bar { grid-template-columns: repeat(3,1fr) !important; }
 }
 </style>
 </head>
@@ -172,11 +172,12 @@ footer { text-align:center; padding:3rem 2rem; border-top:1px solid var(--border
 
 <div class="section" style="padding-top:0">
   <div class="stats-bar">
-    <div class="stat"><div class="num" style="color:var(--accent)" id="stat-pubs">38</div><div class="label">Publications</div></div>
+    <div class="stat"><div class="num" style="color:var(--accent)" id="stat-pubs">37</div><div class="label">Publications</div></div>
     <div class="stat"><div class="num" style="color:var(--accent2)" id="stat-ssci">3</div><div class="label">SSCI</div></div>
-    <div class="stat"><div class="num" style="color:var(--accent3)">40+</div><div class="label">Presentations</div></div>
+    <div class="stat"><div class="num" style="color:var(--accent3)">59</div><div class="label">Presentations</div></div>
     <div class="stat"><div class="num" style="color:var(--accent4)">12</div><div class="label">Awards</div></div>
     <div class="stat"><div class="num" style="color:var(--accent5)">2</div><div class="label">Funded Projects</div></div>
+    <div class="stat"><div class="num" style="color:var(--accent6)">20</div><div class="label">First Author</div></div>
   </div>
 </div>
 </div><!-- end tab-about -->
