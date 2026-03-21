@@ -44,10 +44,10 @@ nav { position:sticky; top:0; z-index:100; background:rgba(10,15,26,0.92); backd
 .hero-tags span { padding:0.35rem 0.9rem; border-radius:20px; font-size:0.8rem; font-weight:500; border:1px solid var(--border); color:var(--muted); transition:all 0.3s; }
 .hero-tags span:hover { border-color:var(--accent); color:var(--accent); }
 
-.stats-bar { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:1px; background:var(--border); border-radius:16px; overflow:hidden; margin-bottom:4rem; }
+.stats-bar { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--border); border-radius:16px; overflow:hidden; margin-bottom:4rem; }
 .stat { background:var(--card); padding:1.5rem; text-align:center; }
 .stat .num { font-size:1.8rem; font-weight:700; }
-.stat .label { font-size:0.75rem; color:var(--muted); margin-top:0.2rem; text-transform:uppercase; letter-spacing:0.05em; }
+.stat .label { font-size:0.65rem; color:var(--muted); margin-top:0.2rem; text-transform:uppercase; letter-spacing:0.03em; }
 
 .timeline { position:relative; padding-left:2.5rem; }
 .timeline::before { content:''; position:absolute; left:0.5rem; top:0.5rem; bottom:0.5rem; width:1px; background:var(--border); }
@@ -126,7 +126,7 @@ footer { text-align:center; padding:3rem 2rem; border-top:1px solid var(--border
   .nav-links a { padding:0.3rem 0.5rem; font-size:0.7rem; }
   .section { padding:3rem 1.2rem; }
   .hero { min-height:auto; padding-top:2rem; }
-  .stats-bar { grid-template-columns: repeat(3,1fr) !important; }
+  .stats-bar { grid-template-columns: repeat(2,1fr); }
 }
 </style>
 </head>
