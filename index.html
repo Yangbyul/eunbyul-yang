@@ -22,6 +22,12 @@ nav { position:sticky; top:0; z-index:100; background:rgba(10,15,26,0.92); backd
 .nav-links { display:flex; gap:0.3rem; }
 .nav-links a { padding:0.4rem 1rem; border-radius:8px; font-size:0.85rem; font-weight:500; color:var(--muted); transition:all 0.2s; }
 .nav-links a:hover, .nav-links a.active { color:var(--text); background:#ffffff0a; text-decoration:none; }
+.nav-links a.active { border-bottom:2px solid var(--accent); border-radius:8px 8px 0 0; }
+
+/* Tab panels */
+.tab-panel { display:none; animation:fadeIn 0.3s ease; }
+.tab-panel.active { display:block; }
+@keyframes fadeIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
 
 .section { max-width:1100px; margin:0 auto; padding:4rem 2rem; }
 .section-title { font-size:0.75rem; text-transform:uppercase; letter-spacing:0.15em; color:var(--accent); font-weight:600; margin-bottom:0.5rem; }
@@ -106,8 +112,6 @@ nav { position:sticky; top:0; z-index:100; background:rgba(10,15,26,0.92); backd
 .dash-link p { font-size:0.85rem; color:var(--muted); }
 
 footer { text-align:center; padding:3rem 2rem; border-top:1px solid var(--border); font-size:0.8rem; color:var(--muted); }
-html { scroll-behavior:smooth; }
-section { scroll-margin-top:60px; }
 
 @media (max-width:768px) {
   .hero-content h1 { font-size:2rem; }
@@ -125,16 +129,17 @@ section { scroll-margin-top:60px; }
   <div class="nav-inner">
     <div class="nav-name">Eunbyul Yang</div>
     <div class="nav-links">
-      <a href="#about" class="active">About</a>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#presentations">Presentations</a>
-      <a href="#awards">Awards</a>
-      <a href="#cv">CV</a>
+      <a href="#" data-tab="about" class="active">About</a>
+      <a href="#" data-tab="research">Research</a>
+      <a href="#" data-tab="publications">Publications</a>
+      <a href="#" data-tab="presentations">Presentations</a>
+      <a href="#" data-tab="awards">Awards</a>
+      <a href="#" data-tab="cv">CV</a>
     </div>
   </div>
 </nav>
 
+<div id="tab-about" class="tab-panel active">
 <section id="about">
 <div class="section hero">
   <div class="hero-content">
@@ -167,7 +172,9 @@ section { scroll-margin-top:60px; }
     <div class="stat"><div class="num" style="color:var(--accent5)">2</div><div class="label">Funded Projects</div></div>
   </div>
 </div>
+</div><!-- end tab-about -->
 
+<div id="tab-research" class="tab-panel">
 <section id="research">
 <div class="section">
   <div class="section-title">Research</div>
@@ -219,7 +226,9 @@ section { scroll-margin-top:60px; }
   </div>
 </div>
 </section>
+</div><!-- end tab-research -->
 
+<div id="tab-publications" class="tab-panel">
 <section id="publications">
 <div class="section">
   <div class="section-title">Publications</div>
@@ -233,7 +242,9 @@ section { scroll-margin-top:60px; }
   </div>
 </div>
 </section>
+</div><!-- end tab-publications -->
 
+<div id="tab-presentations" class="tab-panel">
 <section id="presentations">
 <div class="section">
   <div class="section-title">Conference</div>
@@ -268,7 +279,9 @@ section { scroll-margin-top:60px; }
   </div>
 </div>
 </section>
+</div><!-- end tab-presentations -->
 
+<div id="tab-awards" class="tab-panel">
 <section id="awards">
 <div class="section">
   <div class="section-title">Recognition</div>
@@ -286,7 +299,9 @@ section { scroll-margin-top:60px; }
   </div>
 </div>
 </section>
+</div><!-- end tab-awards -->
 
+<div id="tab-cv" class="tab-panel">
 <section id="cv">
 <div class="section">
   <div class="section-title">Curriculum Vitae</div>
@@ -337,17 +352,37 @@ section { scroll-margin-top:60px; }
   </div>
 </div>
 </section>
+</div><!-- end tab-cv -->
 
 <footer>&copy; 2025 Eunbyul Yang</footer>
 
 <script>
-const sections = document.querySelectorAll('section');
-const navLinks = document.querySelectorAll('.nav-links a');
-window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) current = s.getAttribute('id'); });
-  navLinks.forEach(a => { a.classList.remove('active'); if (a.getAttribute('href') === '#' + current) a.classList.add('active'); });
+// Tab switching
+const navLinks = document.querySelectorAll('.nav-links a[data-tab]');
+const tabPanels = document.querySelectorAll('.tab-panel');
+
+function switchTab(tabName) {
+  tabPanels.forEach(p => p.classList.remove('active'));
+  navLinks.forEach(a => a.classList.remove('active'));
+  const panel = document.getElementById('tab-' + tabName);
+  const link = document.querySelector(`a[data-tab="${tabName}"]`);
+  if (panel) panel.classList.add('active');
+  if (link) link.classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+navLinks.forEach(a => {
+  a.addEventListener('click', (e) => {
+    e.preventDefault();
+    switchTab(a.dataset.tab);
+  });
 });
+
+// Handle hash in URL for direct linking
+if (window.location.hash) {
+  const tab = window.location.hash.replace('#','');
+  if (document.getElementById('tab-' + tab)) switchTab(tab);
+}
 
 // Auto-update stats from papers.json
 fetch('https://yangbyul.github.io/research-dashboard/papers.json')
