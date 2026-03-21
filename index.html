@@ -393,8 +393,9 @@ fetch('https://yangbyul.github.io/eunbyul-yang/presentations.json')
       let html = '';
       sortedYears.forEach((y, i) => {
         const isOpen = i === 0;
-        html += `<div class="year-header${isOpen ? ' open' : ''}" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">${y} <span style="font-size:0.8rem;font-weight:400;color:var(--muted)">(${byYear[y].length}건)</span><span class="arrow">▼</span></div>`;
+        html += `<div class="year-header${isOpen ? ' open' : ''}" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">${y}<span class="arrow">▼</span></div>`;
         html += `<div class="year-body${isOpen ? ' open' : ''}">`;
+        html += `<div style="font-size:0.75rem;color:var(--muted);padding:0.5rem 0 0.3rem">${byYear[y].length} presentations</div>`;
         byYear[y].forEach(p => {
           const scopeBadge = p.scope === 'intl' ? '<span class="pres-type pres-type-intl">International</span>' : '<span class="pres-type pres-type-domestic">Domestic</span>';
           html += `<div class="conf-item"><div style="font-size:0.8rem;font-weight:500">${p.title}</div><div class="conf-venue">${p.venue}, ${p.location} &middot; ${p.type} ${scopeBadge}</div></div>`;
