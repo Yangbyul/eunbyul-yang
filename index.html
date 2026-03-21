@@ -101,7 +101,7 @@ nav { position:sticky; top:0; z-index:100; background:rgba(15,23,42,0.92); backd
 .pres-stat .num { font-size:1.5rem; font-weight:700; }
 .pres-stat .label { font-size:0.75rem; color:var(--muted); }
 
-.conf-list { max-height:500px; overflow-y:auto; }
+.conf-list { max-height:none; overflow-y:visible; }
 .conf-item { padding:0.8rem 0; border-bottom:1px solid var(--border); font-size:0.8rem; }
 .conf-item:last-child { border-bottom:none; }
 .conf-year { font-size:0.7rem; color:var(--accent); font-weight:600; }
@@ -115,7 +115,12 @@ nav { position:sticky; top:0; z-index:100; background:rgba(15,23,42,0.92); backd
 
 .filter-btn { padding:0.3rem 0.8rem; border-radius:16px; border:1px solid var(--border); background:transparent; color:var(--text); cursor:pointer; font-size:0.8rem; transition:all 0.2s; }
 .filter-btn:hover, .filter-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; }
-.year-header { font-size:1.1rem; font-weight:700; color:var(--accent); margin:1.5rem 0 0.8rem; padding-bottom:0.4rem; border-bottom:1px solid var(--border); }
+.year-header { font-size:1.1rem; font-weight:700; color:var(--accent); margin:0.5rem 0 0; padding:0.8rem 1rem; border:1px solid var(--border); border-radius:10px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; background:var(--card); transition:all 0.2s; user-select:none; }
+.year-header:hover { border-color:var(--accent); }
+.year-header .arrow { transition:transform 0.3s; font-size:0.8rem; }
+.year-header.open .arrow { transform:rotate(180deg); }
+.year-body { max-height:0; overflow:hidden; transition:max-height 0.3s ease; padding:0 0.5rem; }
+.year-body.open { max-height:2000px; }
 .pres-type { display:inline-block; padding:0.1rem 0.4rem; border-radius:6px; font-size:0.65rem; font-weight:600; margin-left:0.5rem; }
 .pres-type-intl { background:#34d39922; color:#34d399; }
 .pres-type-domestic { background:#fbbf2422; color:#fbbf24; }
@@ -386,12 +391,15 @@ fetch('https://yangbyul.github.io/eunbyul-yang/presentations.json')
       filtered.forEach(p => { if (!byYear[p.year]) byYear[p.year] = []; byYear[p.year].push(p); });
       const sortedYears = Object.keys(byYear).sort((a, b) => b - a);
       let html = '';
-      sortedYears.forEach(y => {
-        html += `<div class="year-header">${y} <span style="font-size:0.8rem;font-weight:400;color:var(--muted)">(${byYear[y].length})</span></div>`;
+      sortedYears.forEach((y, i) => {
+        const isOpen = i === 0;
+        html += `<div class="year-header${isOpen ? ' open' : ''}" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">${y} <span style="font-size:0.8rem;font-weight:400;color:var(--muted)">(${byYear[y].length}건)</span><span class="arrow">▼</span></div>`;
+        html += `<div class="year-body${isOpen ? ' open' : ''}">`;
         byYear[y].forEach(p => {
           const scopeBadge = p.scope === 'intl' ? '<span class="pres-type pres-type-intl">International</span>' : '<span class="pres-type pres-type-domestic">Domestic</span>';
           html += `<div class="conf-item"><div style="font-size:0.8rem;font-weight:500">${p.title}</div><div class="conf-venue">${p.venue}, ${p.location} &middot; ${p.type} ${scopeBadge}</div></div>`;
         });
+        html += `</div>`;
       });
       document.getElementById('presList').innerHTML = html;
     }
