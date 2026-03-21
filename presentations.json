@@ -1,0 +1,533 @@
+[
+  {
+    "year": 2025,
+    "authors": "Lee, S., Yang, E., Chae, M., Ahan, M., & Ryu, J.",
+    "title": "High-fidelity collaborative simulation training in extended reality for emergency medical team leaders",
+    "type": "Poster",
+    "venue": "AECT 2025",
+    "location": "Las Vegas, NV, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2025,
+    "authors": "Ryu, J., Kim, K., Yang, E., Lee, J., Lee, B., & Son, W.",
+    "title": "XR-LEADS: A multimodal, data-driven, real-time learning analytics dashboard for designing XR-based learning experiences",
+    "type": "Concurrent",
+    "venue": "AECT 2025",
+    "location": "Las Vegas, NV, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2025,
+    "authors": "Yang, E., Kim, K., Lee, S., Chae, M., Ahn, M., & Ryu, J.",
+    "title": "Collaborative simulation training in extended reality with high-fidelity patient simulator for emergency contexts",
+    "type": "Concurrent",
+    "venue": "iLRN 2025",
+    "location": "Chicago, IL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2025,
+    "authors": "Ryu, J., Yang, E., Kim, K., Lee, J., Lee, B., & Son, W.",
+    "title": "AI-powered learning dashboard with multimodal metrics for embodied performance in XR training simulation",
+    "type": "Concurrent",
+    "venue": "iLRN 2025",
+    "location": "Chicago, IL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2025,
+    "authors": "Kang, H., Yang, E., Lee, S., Choe, S., & Ryu, J.",
+    "title": "Virtual interaction on concept learning for construction safety training",
+    "type": "Poster",
+    "venue": "iLRN 2025",
+    "location": "Chicago, IL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2025,
+    "authors": "Ryu, J., Kim, K., Yang, E., Son, U., Lee, J., & Lee, B.",
+    "title": "XR-LEADS: A multimodal framework for interactive learning experience and real-time analytics in XR training",
+    "type": "Paper",
+    "venue": "SITE 2025",
+    "location": "Orlando, FL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2025,
+    "authors": "Ryu, J., Kim, K., Yang, E., Son, U., Lee, J., & Lee, B.",
+    "title": "XR-LEADS: AI-powered real-time learning analytics for XR training",
+    "type": "Demo",
+    "venue": "SITE 2025",
+    "location": "Orlando, FL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2025,
+    "authors": "Lee, S., Yang, E., Kim, D., & Ryu, J.",
+    "title": "Systematic literature review of XR-based simulations for collaborative learning",
+    "type": "Poster",
+    "venue": "SITE 2025",
+    "location": "Orlando, FL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2024,
+    "authors": "Yang, E., Kim, K., Jeong, Y., Kim, D., Kang, H., Lee, S., & Ryu, J.",
+    "title": "Designing extended reality-based training content for cardiopulmonary resuscitation skills for laypersons",
+    "type": "Showcase",
+    "venue": "AECT 2024",
+    "location": "Kansas City, MO, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2024,
+    "authors": "Yang, E., Park, S., & Ryu, J.",
+    "title": "Impact of the timing of debriefing on teaching efficacy in virtual reality teaching simulations",
+    "type": "Paper",
+    "venue": "AECT 2024",
+    "location": "Kansas City, MO, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2024,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "The impact of avatars supporting self-regulation on learning experience in metaverse",
+    "type": "Roundtable",
+    "venue": "ICoME 2024",
+    "location": "Tokyo, Japan",
+    "scope": "intl"
+  },
+  {
+    "year": 2024,
+    "authors": "Lim, T., Yang, E., & Ryu, J.",
+    "title": "Keyword network analysis of AI convergence education curriculum using fine-tuned GPT-3.5",
+    "type": "Paper",
+    "venue": "KAEIM 2024 Spring",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2024,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "Differences in teaching efficacy by timing of reflection in VR teaching simulation",
+    "type": "Paper",
+    "venue": "KAEIM 2024 Spring",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2024,
+    "authors": "Jeong, Y., Yang, E., Kim, K., Kim, D., & Ryu, J.",
+    "title": "Machine learning insights into geography education enhancement in XR environments",
+    "type": "Poster",
+    "venue": "XRM 2024",
+    "location": "Busan, Korea",
+    "scope": "intl"
+  },
+  {
+    "year": 2024,
+    "authors": "Kim, D., Yang, E., Kim, K., Jeong, Y., & Ryu, J.",
+    "title": "Developing extended reality simulation for core basic nursing skills",
+    "type": "Poster",
+    "venue": "XRM 2024",
+    "location": "Busan, Korea",
+    "scope": "intl"
+  },
+  {
+    "year": 2024,
+    "authors": "Yang, E., Park, S., & Ryu, J.",
+    "title": "Virtual training simulation: Influences of physical fidelity of VR controllers on task load and performance",
+    "type": "Paper",
+    "venue": "AERA 2024",
+    "location": "Philadelphia, PA, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2024,
+    "authors": "Lee, S., Yang, E., Ryu, J., & Kim, I.",
+    "title": "Designing a framework for team-based XR simulation",
+    "type": "Paper",
+    "venue": "SITE 2024",
+    "location": "Las Vegas, NV, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2024,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "Effects of reflection on teaching efficacy in virtual reality-based teaching simulation",
+    "type": "Paper",
+    "venue": "SITE 2024",
+    "location": "Las Vegas, NV, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2024,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "Learners' cognition and emotions in metaverse learning environments: A multimodal analysis",
+    "type": "Paper",
+    "venue": "SITE 2024",
+    "location": "Las Vegas, NV, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2023,
+    "authors": "Lim, T., Yang, E., et al.",
+    "title": "ChatGPT vs manual keyword extraction comparison",
+    "type": "Paper",
+    "venue": "KSET-KAEIM 2023 Fall",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2023,
+    "authors": "Yang, E., Kim, D., & Ryu, J.",
+    "title": "Self-regulated learning strategies and task complexity on cognitive load and emotion in metaverse",
+    "type": "Paper",
+    "venue": "KSET-KAEIM 2023 Fall",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2023,
+    "authors": "Jeong, Y., Yang, E., Lim, T., & Ryu, J.",
+    "title": "Learner perception on metaverse campus for shared university",
+    "type": "Poster",
+    "venue": "AECT 2023",
+    "location": "Orlando, FL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2023,
+    "authors": "Kim, K., Yang, E., & Ryu, J.",
+    "title": "The effects of interactive virtual human's role in conversation on persona",
+    "type": "Poster",
+    "venue": "AECT 2023",
+    "location": "Orlando, FL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2023,
+    "authors": "Yang, E., Park, S., & Ryu, J.",
+    "title": "Haptic fidelity and task repetition on task load and performance in VR simulation",
+    "type": "Paper",
+    "venue": "AECT 2023",
+    "location": "Orlando, FL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2023,
+    "authors": "Yang, E., Davis, R.O., & Ryu, J.",
+    "title": "Does self-regulated support have a positive impact on cognitive load and emotions in game-based learning?",
+    "type": "Paper",
+    "venue": "AECT 2023",
+    "location": "Orlando, FL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2023,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "Multimodal analysis of cognitive load and emotions in the virtual world",
+    "type": "Roundtable",
+    "venue": "ICoME 2023",
+    "location": "Zhejiang, China",
+    "scope": "intl"
+  },
+  {
+    "year": 2023,
+    "authors": "Ryu, J., Park, S., Yang, E., & Kim, K.",
+    "title": "Authentic scenario design for VR-based parent-teacher conference simulation",
+    "type": "Paper",
+    "venue": "AERA 2023",
+    "location": "Chicago, IL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2023,
+    "authors": "Yang, E., Park, S., Lim, T., & Ryu, J.",
+    "title": "Virtual dental simulation: Users' expertise on clinical performance and task load",
+    "type": "Poster",
+    "venue": "AERA 2023",
+    "location": "Chicago, IL, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2022,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "Attention analysis according to learning task type in game-based learning",
+    "type": "Paper",
+    "venue": "KSET-KAEIM 2022 Fall",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2022,
+    "authors": "Ryu, J., Yang, E., & Kim, K.",
+    "title": "Multi-modal analysis of user experience in counseling simulation for pre-service teacher",
+    "type": "Concurrent",
+    "venue": "SNU ICER 2022",
+    "location": "Seoul, Korea",
+    "scope": "intl"
+  },
+  {
+    "year": 2022,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "The effects of physical fidelity in VR simulation on task loads",
+    "type": "Roundtable",
+    "venue": "ICoME 2022",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2022,
+    "authors": "Park, S., Ryu, J., Yang, E., & Kim, K.",
+    "title": "Formative design of authentic scenarios for VR-based parent-teacher conference simulation",
+    "type": "Paper",
+    "venue": "AECT Summer 2022",
+    "location": "Bloomington, IN, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2022,
+    "authors": "Ryu, J., & Yang, E.",
+    "title": "Analysis of emotional changes of teachers and preservice teachers in teaching simulations",
+    "type": "Paper",
+    "venue": "KSET 2022 Spring",
+    "location": "Daejeon, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2022,
+    "authors": "Kim, K., & Yang, E.",
+    "title": "The effectiveness elements on the intention to use of metaverse learning environment",
+    "type": "Roundtable",
+    "venue": "ASSERT 2022",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2022,
+    "authors": "Kim, K., Yang, E., & Ryu, J.",
+    "title": "The effect of students' perceptions on intention to use metaverse learning environment",
+    "type": "Poster",
+    "venue": "iLRN 2022",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2022,
+    "authors": "Yang, E., Kim, K., & Ryu, J.",
+    "title": "SimTEACHER: VR-based simulation for pre-service teachers",
+    "type": "Poster",
+    "venue": "SITE 2022",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2022,
+    "authors": "Yang, E., Kim, K., & Ryu, J.",
+    "title": "Development of VR based teacher education simulation: SimTEACHER",
+    "type": "Brief Paper",
+    "venue": "SITE 2022",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2021,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "Peer avatar and teacher avatar movement effects on learning presence and attention in virtual 3D",
+    "type": "Poster",
+    "venue": "KSET-KAEIM 2021 Fall",
+    "location": "Online, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2021,
+    "authors": "Kim, K., Yang, E., & Ryu, J.",
+    "title": "Counseling interaction effects on facial expression and scenario usefulness",
+    "type": "Poster",
+    "venue": "AECT 2021",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2021,
+    "authors": "Yang, E., Tak, Y., & Ryu, J.",
+    "title": "Gender matching and realism of avatar for AI speaker on intimacy and intention to use",
+    "type": "Roundtable",
+    "venue": "ICoME 2021",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2021,
+    "authors": "Kim, K., Yang, E., & Ryu, J.",
+    "title": "Gender differences in facial expression and emotional changes in parent-teacher simulation",
+    "type": "Poster",
+    "venue": "KER 2021",
+    "location": "Online, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2021,
+    "authors": "Yang, E., Kim, C., & Ryu, J.",
+    "title": "Effects of conversational interaction on in-service teacher experience in VR classroom simulation",
+    "type": "Poster",
+    "venue": "iLRN 2021",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2021,
+    "authors": "Yang, E., Tak, Y., & Ryu, J.",
+    "title": "Avatar and gender matching on intimacy and intention to use for AI speaker",
+    "type": "Poster",
+    "venue": "KAEIM 2021 Spring",
+    "location": "Online, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2020,
+    "authors": "Jeong, M., Kim, K., Ryu, J., Yang, E., & Lim, S.",
+    "title": "Development of haptic based training simulation for power tool operation",
+    "type": "Showcase",
+    "venue": "AECT 2020",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2020,
+    "authors": "Yang, E., & Kim, K.",
+    "title": "How do we perceive avatar's emotional gesture?",
+    "type": "Concurrent",
+    "venue": "ASSERT 2020",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2020,
+    "authors": "Yang, E., Lim, T., & Ryu, J.",
+    "title": "Effect of avatar's gender and realism on persona effects using AI speakers",
+    "type": "Paper",
+    "venue": "KSET-KAEIM 2020 Fall",
+    "location": "Online, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2020,
+    "authors": "Lim, S., Yang, E., Lim, T., & Ryu, J.",
+    "title": "Deep learning-based emotion prediction model using DEAP in VR simulation",
+    "type": "Paper",
+    "venue": "KSET-KAEIM 2020 Fall",
+    "location": "Online, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2020,
+    "authors": "Yang, E., Jeong, M., Lim, S., & Ryu, J.",
+    "title": "Emotion recognition by measuring EEG and pupil diameter in VR simulation",
+    "type": "Roundtable",
+    "venue": "ICoME 2020",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2020,
+    "authors": "Ki, S., & Yang, E.",
+    "title": "The effect of screen size and text density on eye tracking by AOI",
+    "type": "Roundtable",
+    "venue": "ICoME 2020",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2020,
+    "authors": "Yang, E., Lim, S., Jeong, M., & Ryu, J.",
+    "title": "Development of emotion evaluating model with psychophysiological data in VR",
+    "type": "Showcase",
+    "venue": "iLRN 2020",
+    "location": "Online",
+    "scope": "intl"
+  },
+  {
+    "year": 2020,
+    "authors": "Yang, E., Jeong, M., Lim, S., & Ryu, J.",
+    "title": "Emotion evaluation model using EEG and pupil dilation in VR simulation",
+    "type": "Paper",
+    "venue": "KSET 2020 Spring",
+    "location": "Online, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2020,
+    "authors": "Ryu, J., Park, S., & Yang, E.",
+    "title": "Performance differences by skill level in VR simulation using head tracking",
+    "type": "Paper",
+    "venue": "KSET 2020 Spring",
+    "location": "Online, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2019,
+    "authors": "Yang, E., Kim, K., Kim, C., Jeong, M., & Ryu, J.",
+    "title": "Development of AI interactive agent model for emotional conflict in teaching simulations",
+    "type": "Poster",
+    "venue": "KSET-KAEIM 2019 Fall",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2018,
+    "authors": "Yang, E.",
+    "title": "Development of VR classroom simulation for student problem response in collaborative learning",
+    "type": "Poster",
+    "venue": "ICoME 2018",
+    "location": "Cheongju, Korea",
+    "scope": "intl"
+  },
+  {
+    "year": 2018,
+    "authors": "Yang, E., & Yoon, H.",
+    "title": "Case study for lessons with AR learning tools in elementary school",
+    "type": "Poster",
+    "venue": "KAEIM 2018 Spring",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2017,
+    "authors": "Yang, E., & Jeong, M.",
+    "title": "Development of VR simulation using HMD: Parent-teacher conference for novice teachers",
+    "type": "Showcase",
+    "venue": "KSET-KAEIM 2017 Fall",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2017,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "Persona effects and cognitive load by virtual character presentation in AR learning materials",
+    "type": "Poster",
+    "venue": "KSET-KAEIM 2017 Fall",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2017,
+    "authors": "Yang, E., & Ryu, J.",
+    "title": "Segmentation of learning objects in AR on cognitive load and usability of elementary students",
+    "type": "Poster",
+    "venue": "KSET 2017 Spring",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  },
+  {
+    "year": 2017,
+    "authors": "Yang, E., Kim, C., Lee, Y., Kim, D., & Moon, S.",
+    "title": "Virtual Garden applied AR",
+    "type": "Showcase",
+    "venue": "KAEIM 2017 Spring",
+    "location": "Seoul, Korea",
+    "scope": "domestic"
+  }
+]
