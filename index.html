@@ -160,8 +160,8 @@ section { scroll-margin-top:60px; }
 
 <div class="section" style="padding-top:0">
   <div class="stats-bar">
-    <div class="stat"><div class="num" style="color:var(--accent)">38</div><div class="label">Publications</div></div>
-    <div class="stat"><div class="num" style="color:var(--accent2)">3</div><div class="label">SSCI</div></div>
+    <div class="stat"><div class="num" style="color:var(--accent)" id="stat-pubs">38</div><div class="label">Publications</div></div>
+    <div class="stat"><div class="num" style="color:var(--accent2)" id="stat-ssci">3</div><div class="label">SSCI</div></div>
     <div class="stat"><div class="num" style="color:var(--accent3)">40+</div><div class="label">Presentations</div></div>
     <div class="stat"><div class="num" style="color:var(--accent4)">12</div><div class="label">Awards</div></div>
     <div class="stat"><div class="num" style="color:var(--accent5)">2</div><div class="label">Funded Projects</div></div>
@@ -348,6 +348,16 @@ window.addEventListener('scroll', () => {
   sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) current = s.getAttribute('id'); });
   navLinks.forEach(a => { a.classList.remove('active'); if (a.getAttribute('href') === '#' + current) a.classList.add('active'); });
 });
+
+// Auto-update stats from papers.json
+fetch('https://yangbyul.github.io/research-dashboard/papers.json')
+  .then(r => r.json())
+  .then(papers => {
+    document.getElementById('stat-pubs').textContent = papers.length;
+    const ssci = papers.filter(p => p.journal && (p.journal.includes('SSCI'))).length;
+    if (ssci > 0) document.getElementById('stat-ssci').textContent = ssci;
+  })
+  .catch(() => {});
 </script>
 </body>
 </html>
