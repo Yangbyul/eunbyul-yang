@@ -5,7 +5,7 @@ echo.
 cd /d "%~dp0"
 
 echo [1/3] Parsing CV...
-python scripts\parse_cv.py cv\YANG_CV.docx
+python scripts\parse_cv.py cv\YANG_CV_git.docx
 if errorlevel 1 (
     echo ERROR: CV parsing failed. Make sure python-docx is installed.
     echo Run: pip install python-docx

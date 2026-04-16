@@ -3,7 +3,7 @@ name: Update Site from CV
 on:
   push:
     paths:
-      - 'cv/YANG_CV.docx'
+      - 'cv/YANG_CV_git.docx'
       - 'presentations.json'
     branches: [master]
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
         run: pip install python-docx
 
       - name: Parse CV to JSON
-        run: python scripts/parse_cv.py cv/YANG_CV.docx
+        run: python scripts/parse_cv.py cv/YANG_CV_git.docx
 
       - name: Commit updated data
         run: |
