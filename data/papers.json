@@ -1,0 +1,1289 @@
+[
+  {
+    "year": 2018,
+    "id": "2018-1",
+    "title": "증강현실 학습자료의 세분화 정도가 초등학생의 사용편의성과 인지부하에 미치는 영향",
+    "journal": "교육연구",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "증강현실",
+      "세분화",
+      "사용편의성",
+      "인지부하",
+      "초등학생"
+    ],
+    "tech": [
+      "AR"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "초등학생"
+    ],
+    "dv": [
+      "사용편의성",
+      "인지부하"
+    ],
+    "line": "AR/VR 학습자료"
+  },
+  {
+    "year": 2019,
+    "id": "2019-1",
+    "title": "예비교사를 위한 수업시뮬레이션에서 시나리오 유형과 수행 안내 방법에 따른 가상실재감과 사용성 지각의 차이",
+    "journal": "미래교육학연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "수업시뮬레이션",
+      "시나리오",
+      "가상실재감",
+      "사용성",
+      "예비교사"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "예비교사"
+    ],
+    "dv": [
+      "가상실재감",
+      "사용성"
+    ],
+    "line": "수업시뮬레이션"
+  },
+  {
+    "year": 2019,
+    "id": "2019-2",
+    "title": "증강현실 학습자료에서 가상캐릭터의 제시방법이 학습자의 의인화 지각, 인지부하의 변화와 주의집중에 미치는 효과",
+    "journal": "교육방법연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "증강현실",
+      "가상캐릭터",
+      "의인화지각",
+      "인지부하",
+      "주의집중"
+    ],
+    "tech": [
+      "AR"
+    ],
+    "method": [
+      "실험연구",
+      "시선추적"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "의인화지각",
+      "인지부하",
+      "주의집중"
+    ],
+    "line": "교수학습 에이전트"
+  },
+  {
+    "year": 2019,
+    "id": "2019-3",
+    "title": "동영상의 화면크기와 아바타의 제스처 유형이 학습자의 실재감 지각에 미치는 영향",
+    "journal": "교육방법연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "화면크기",
+      "지시적제스처",
+      "대화적제스처",
+      "아바타",
+      "실재감"
+    ],
+    "tech": [
+      "아바타",
+      "동영상"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "실재감"
+    ],
+    "line": "교수학습 에이전트"
+  },
+  {
+    "year": 2019,
+    "id": "2019-4",
+    "title": "인공지능 기반의 자율적 아바타를 사용한 수업시뮬레이션에서 정서모형 설계를 위한 윤리 가이드라인",
+    "journal": "The Digital Ethics (디지털 윤리)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "김채연",
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "자율적아바타",
+      "수업시뮬레이션",
+      "인공지능",
+      "정서모형",
+      "윤리"
+    ],
+    "tech": [
+      "AI",
+      "아바타",
+      "시뮬레이션"
+    ],
+    "method": [
+      "문헌연구"
+    ],
+    "target": [],
+    "dv": [
+      "윤리가이드라인"
+    ],
+    "line": "수업시뮬레이션"
+  },
+  {
+    "year": 2020,
+    "id": "2020-1",
+    "title": "동영상 강좌에서 대학생의 주의집중 수준과 관심영역에 따른 시선응시 및 동공지름에 대한 분석",
+    "journal": "한국교육학연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "동영상강의",
+      "시선추적",
+      "주의집중",
+      "시선응시",
+      "동공지름"
+    ],
+    "tech": [
+      "동영상"
+    ],
+    "method": [
+      "실험연구",
+      "시선추적"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "주의집중",
+      "시선응시",
+      "동공지름"
+    ],
+    "line": "멀티모달 학습분석"
+  },
+  {
+    "year": 2020,
+    "id": "2020-2",
+    "title": "학습용 에이전트의 성별과 시선응시 방향이 얼굴표정에 대한 감정상태 인식에 미치는 영향",
+    "journal": "교육정보미디어연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "학습에이전트",
+      "성별",
+      "시선응시",
+      "감정인식",
+      "표정"
+    ],
+    "tech": [
+      "아바타"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "감정인식"
+    ],
+    "line": "교수학습 에이전트"
+  },
+  {
+    "year": 2020,
+    "id": "2020-3",
+    "title": "학습용 에이전트가 적용된 멀티미디어 자료에서 화면크기와 텍스트 제시방식이 주의집중 및 중복효과에 미치는 영향",
+    "journal": "한국교육문제연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "기수현",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "멀티미디어학습",
+      "중복효과",
+      "화면크기",
+      "시선고정시간",
+      "시선고정빈도"
+    ],
+    "tech": [
+      "멀티미디어",
+      "아바타"
+    ],
+    "method": [
+      "실험연구",
+      "시선추적"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "주의집중",
+      "중복효과"
+    ],
+    "line": "교수학습 에이전트"
+  },
+  {
+    "year": 2020,
+    "id": "2020-4",
+    "title": "Effects of auditory feedback and task difficulty on cognitive load and virtual presence in VR dental simulation",
+    "journal": "대한치과의사협회지 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "Kim, B.",
+      "최나연",
+      "김수빈",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "auditory feedback",
+      "task difficulty",
+      "cognitive load",
+      "virtual presence",
+      "VR dental"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "치대학생"
+    ],
+    "dv": [
+      "인지부하",
+      "가상실재감"
+    ],
+    "line": "AR/VR 학습자료"
+  },
+  {
+    "year": 2020,
+    "id": "2020-5",
+    "title": "The Effects of Joystick-controlling and Walking-around on Navigating a Virtual Space",
+    "journal": "Educational Technology International (KCI)",
+    "lang": "en",
+    "type": "journal",
+    "coauthors": [
+      "류지헌",
+      "Park, S.",
+      "정민영"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "joystick",
+      "walking",
+      "virtual space",
+      "navigation",
+      "VR",
+      "spatial presence"
+    ],
+    "tech": [
+      "VR"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "공간탐색",
+      "실재감"
+    ],
+    "line": "AR/VR 학습자료"
+  },
+  {
+    "year": 2020,
+    "id": "2020-6",
+    "title": "전문교사 양성을 위한 교육대학원 AI융합교육 교육과정에 대한 의미연결망분석",
+    "journal": "학습자중심교과교육연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "임태형",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "AI융합교육",
+      "교육과정",
+      "의미연결망분석",
+      "교육대학원"
+    ],
+    "tech": [
+      "AI"
+    ],
+    "method": [
+      "의미연결망분석"
+    ],
+    "target": [
+      "교육과정"
+    ],
+    "dv": [
+      "교육과정분석"
+    ],
+    "line": "AI 교육"
+  },
+  {
+    "year": 2020,
+    "id": "2020-7",
+    "title": "인공지능 스피커가 적용된 아바타의 성별 및 사실성 수준이 의인화 지각에 미치는 영향",
+    "journal": "한국교육학연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "임태형",
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "AI스피커",
+      "아바타",
+      "성별",
+      "사실성",
+      "의인화"
+    ],
+    "tech": [
+      "AI",
+      "아바타"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "의인화지각"
+    ],
+    "line": "교수학습 에이전트"
+  },
+  {
+    "year": 2021,
+    "id": "2021-iLRN",
+    "title": "Effects of Interactive Conversation On In-Service Teacher Experience in Classroom Simulation",
+    "journal": "iLRN Conference",
+    "lang": "en",
+    "type": "conference",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "interactive conversation",
+      "classroom simulation",
+      "teacher training"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "현직교사"
+    ],
+    "dv": [
+      "사용자경험"
+    ],
+    "line": "수업시뮬레이션"
+  },
+  {
+    "year": 2021,
+    "id": "2021-1",
+    "title": "가상현실 수업시뮬레이션에서 정서 판단을 위한 EEG 기반의 심층신경망 모형개발",
+    "journal": "교육정보미디어연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "임성민",
+      "임태형",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "EEG",
+      "심층신경망",
+      "정서판단",
+      "가상현실",
+      "수업시뮬레이션"
+    ],
+    "tech": [
+      "VR",
+      "AI",
+      "시뮬레이션"
+    ],
+    "method": [
+      "딥러닝",
+      "EEG"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "정서판단"
+    ],
+    "line": "멀티모달 학습분석"
+  },
+  {
+    "year": 2021,
+    "id": "2021-2",
+    "title": "메타버스를 활용한 고등학생 진로체험 프로그램 사용자 경험 분석",
+    "journal": "학습자중심교과교육연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "임태형",
+      "김국현",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "메타버스",
+      "진로체험",
+      "사용자경험",
+      "고등학생"
+    ],
+    "tech": [
+      "메타버스"
+    ],
+    "method": [
+      "사용자경험분석"
+    ],
+    "target": [
+      "고등학생"
+    ],
+    "dv": [
+      "사용자경험"
+    ],
+    "line": "메타버스 학습환경"
+  },
+  {
+    "year": 2021,
+    "id": "2021-3",
+    "title": "수업시뮬레이션에서 현직교사와 예비교사의 시나리오 유용성, 가상실재감, 흥미발달에 대한 비교 연구",
+    "journal": "교육정보미디어연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "김국현",
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "수업시뮬레이션",
+      "현직교사",
+      "예비교사",
+      "가상실재감"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "교사"
+    ],
+    "dv": [
+      "가상실재감",
+      "흥미"
+    ],
+    "line": "수업시뮬레이션"
+  },
+  {
+    "year": 2021,
+    "id": "2021-4",
+    "title": "AI 스피커에 적용된 아바타와 사용자의 성일치 여부와 아바타 구현의 사실성 수준이 사용의도 및 친밀감에 미치는 영향",
+    "journal": "디지털콘텐츠학회논문지 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "탁연주",
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "AI스피커",
+      "성일치",
+      "아바타",
+      "사실성",
+      "사용의도"
+    ],
+    "tech": [
+      "AI",
+      "아바타"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "사용의도",
+      "친밀감"
+    ],
+    "line": "교수학습 에이전트"
+  },
+  {
+    "year": 2021,
+    "id": "2021-5",
+    "title": "메타버스 학습환경에서 동료와 교사 아바타가 학습실재감과 시각적 주의집중에 미치는 효과",
+    "journal": "교육정보미디어연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "메타버스",
+      "아바타",
+      "학습실재감",
+      "주의집중",
+      "시선추적"
+    ],
+    "tech": [
+      "메타버스",
+      "아바타"
+    ],
+    "method": [
+      "실험연구",
+      "시선추적"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "학습실재감",
+      "주의집중"
+    ],
+    "line": "메타버스 학습환경"
+  },
+  {
+    "year": 2021,
+    "id": "2021-6",
+    "title": "가상현실 기반 시나리오의 정서 조건에 대한 음향구현 방식이 가상실재감에 미치는 영향",
+    "journal": "교육공학연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "가상현실",
+      "음향",
+      "정서",
+      "가상실재감",
+      "시나리오"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "가상실재감"
+    ],
+    "line": "수업시뮬레이션"
+  },
+  {
+    "year": 2021,
+    "id": "2021-7",
+    "title": "Do we perceive emotional gender gesture of virtual avatar as intended",
+    "journal": "International Journal for Educational Media and Technology",
+    "lang": "en",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "emotion",
+      "gender",
+      "gesture",
+      "virtual avatar"
+    ],
+    "tech": [
+      "아바타"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "정서인식"
+    ],
+    "line": "교수학습 에이전트"
+  },
+  {
+    "year": 2022,
+    "id": "2022-iLRN",
+    "title": "The Effect of Students' Perceptions on Intention to use Metaverse Learning Environment",
+    "journal": "iLRN Conference",
+    "lang": "en",
+    "type": "conference",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "metaverse",
+      "higher education",
+      "usage intention",
+      "perception"
+    ],
+    "tech": [
+      "메타버스"
+    ],
+    "method": [
+      "설문연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "사용의도"
+    ],
+    "line": "메타버스 학습환경"
+  },
+  {
+    "year": 2022,
+    "id": "2022-1",
+    "title": "교사의 성별 및 학교급에 따른 인공지능 교수효능감의 차이",
+    "journal": "컴퓨터교육학회논문지 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "임태형",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "인공지능",
+      "교수효능감",
+      "교사",
+      "성별",
+      "학교급"
+    ],
+    "tech": [
+      "AI"
+    ],
+    "method": [
+      "설문연구"
+    ],
+    "target": [
+      "교사"
+    ],
+    "dv": [
+      "교수효능감"
+    ],
+    "line": "AI 교육"
+  },
+  {
+    "year": 2022,
+    "id": "2022-2",
+    "title": "메타버스 기반 전시 박람회에서 참관객의 만족도와 추천 의향에 미치는 영향",
+    "journal": "디지털콘텐츠학회논문지 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "임태형",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "메타버스",
+      "전시박람회",
+      "만족도",
+      "추천의향",
+      "사용자경험"
+    ],
+    "tech": [
+      "메타버스"
+    ],
+    "method": [
+      "설문연구"
+    ],
+    "target": [
+      "일반인"
+    ],
+    "dv": [
+      "만족도",
+      "추천의향"
+    ],
+    "line": "메타버스 학습환경"
+  },
+  {
+    "year": 2022,
+    "id": "2022-3",
+    "title": "학급관리 수업시뮬레이션에서 시나리오와 대응교육이 예비교사의 수업효능감에 미치는 영향",
+    "journal": "교육정보미디어연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "수업시뮬레이션",
+      "학급관리",
+      "수업효능감",
+      "예비교사"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "예비교사"
+    ],
+    "dv": [
+      "수업효능감"
+    ],
+    "line": "수업시뮬레이션"
+  },
+  {
+    "year": 2022,
+    "id": "2022-4",
+    "title": "학부모 상담을 위한 온라인 시뮬레이션에서 시나리오 단계에 따른 교사와 예비교사의 주의집중 및 정서변화 분석",
+    "journal": "한국교육학연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌",
+      "김국현"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "학부모상담",
+      "시뮬레이션",
+      "주의집중",
+      "정서변화",
+      "시선추적"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구",
+      "시선추적"
+    ],
+    "target": [
+      "교사",
+      "예비교사"
+    ],
+    "dv": [
+      "주의집중",
+      "정서"
+    ],
+    "line": "수업시뮬레이션"
+  },
+  {
+    "year": 2022,
+    "id": "2022-5",
+    "title": "가상현실 수업 시뮬레이션 콘텐츠에 대한 사용자 정서 분석",
+    "journal": "디지털콘텐츠학회논문지 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "가상현실",
+      "수업시뮬레이션",
+      "정서분석",
+      "사용자경험",
+      "EEG"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구",
+      "EEG"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "정서"
+    ],
+    "line": "멀티모달 학습분석"
+  },
+  {
+    "year": 2023,
+    "id": "2023-2",
+    "title": "가상 시뮬레이션 학습자의 인지부하와 정서를 분석하기 위한 표정 분석 및 뇌전도의 활용",
+    "journal": "교육방법연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "김국현",
+      "류지헌",
+      "임태형"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "가상시뮬레이션",
+      "인지부하",
+      "정서",
+      "표정분석",
+      "EEG",
+      "멀티모달"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "멀티모달분석",
+      "EEG",
+      "표정분석"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "인지부하",
+      "정서"
+    ],
+    "line": "멀티모달 학습분석"
+  },
+  {
+    "year": 2023,
+    "id": "2023-3",
+    "title": "How does Dental Students' expertise influence clinical performance and task load in a virtual Dental Lab",
+    "journal": "Journal of Computing in Higher Education (SSCI)",
+    "lang": "en",
+    "type": "journal",
+    "coauthors": [
+      "Park, S.",
+      "류지헌",
+      "임태형"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "dental education",
+      "expertise",
+      "task load",
+      "VR",
+      "clinical performance"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "치대학생"
+    ],
+    "dv": [
+      "수행",
+      "과제부하"
+    ],
+    "line": "AR/VR 학습자료"
+  },
+  {
+    "year": 2023,
+    "id": "2023-4",
+    "title": "XR기반 학습환경에서 디지털트윈을 적용한 아바타와의 협력활동이 사용자의 지각에 미치는 영향",
+    "journal": "교육공학연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "XR",
+      "디지털트윈",
+      "아바타",
+      "협력활동",
+      "사용자지각"
+    ],
+    "tech": [
+      "XR",
+      "디지털트윈",
+      "아바타"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "사용자지각"
+    ],
+    "line": "메타버스 학습환경"
+  },
+  {
+    "year": 2023,
+    "id": "2023-5",
+    "title": "ChatGPT를 활용한 텍스트 데이터에서 키워드 추출: 수동방식과의 유사도 비교",
+    "journal": "교육공학연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "임태형",
+      "기수현",
+      "김국현",
+      "정유선",
+      "이선옥",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "ChatGPT",
+      "키워드추출",
+      "텍스트분석",
+      "AI",
+      "유사도비교",
+      "연구방법"
+    ],
+    "tech": [
+      "AI",
+      "ChatGPT"
+    ],
+    "method": [
+      "텍스트분석"
+    ],
+    "target": [],
+    "dv": [
+      "키워드추출정확도"
+    ],
+    "line": "AI 교육"
+  },
+  {
+    "year": 2023,
+    "id": "2023-FD",
+    "title": "Formative Design of Authentic Scenarios for a VR-Based Parent-Teacher Conference Simulation",
+    "journal": "Springer Book Chapter",
+    "lang": "en",
+    "type": "book_chapter",
+    "coauthors": [
+      "류지헌",
+      "Park, S.",
+      "김국현"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "formative design",
+      "authentic scenarios",
+      "VR",
+      "parent-teacher conference",
+      "simulation"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "설계기반연구"
+    ],
+    "target": [
+      "교사"
+    ],
+    "dv": [
+      "시나리오설계"
+    ],
+    "line": "수업시뮬레이션"
+  },
+  {
+    "year": 2024,
+    "id": "2024-1",
+    "title": "게임 기반 학습에서 자기조절 학습 지원전략에 따른 인지적 학습경험의 멀티모달 분석",
+    "journal": "교육정보미디어연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "게임기반학습",
+      "자기조절학습",
+      "멀티모달분석",
+      "인지부하"
+    ],
+    "tech": [
+      "게임"
+    ],
+    "method": [
+      "멀티모달분석"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "인지적학습경험"
+    ],
+    "line": "멀티모달 학습분석"
+  },
+  {
+    "year": 2024,
+    "id": "2024-2",
+    "title": "The effects of physical fidelity and task repetition on perceived task load and task performance",
+    "journal": "British Journal of Educational Technology (SSCI)",
+    "lang": "en",
+    "type": "journal",
+    "coauthors": [
+      "Park, S.",
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [
+      "physical fidelity",
+      "task repetition",
+      "task load",
+      "performance",
+      "VR"
+    ],
+    "tech": [
+      "VR",
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "치대학생"
+    ],
+    "dv": [
+      "과제부하",
+      "수행"
+    ],
+    "line": "AR/VR 학습자료"
+  },
+  {
+    "year": 2025,
+    "id": "2025-1",
+    "title": "Designing and Learning with Pedagogical Agents: An Umbrella Review",
+    "journal": "Journal of Educational Computing Research (SSCI)",
+    "lang": "en",
+    "type": "journal",
+    "coauthors": [
+      "Schroeder, N.L.",
+      "Davis, R.O."
+    ],
+    "role": "공저자",
+    "keywords": [
+      "pedagogical agents",
+      "umbrella review",
+      "instructional design",
+      "learning"
+    ],
+    "tech": [
+      "아바타",
+      "AI"
+    ],
+    "method": [
+      "체계적문헌고찰"
+    ],
+    "target": [],
+    "dv": [
+      "학습효과"
+    ],
+    "line": "교수학습 에이전트"
+  },
+  {
+    "year": 2025,
+    "id": "2025-2",
+    "title": "The exploration of combining hologram-like images and pedagogical agent gesturing",
+    "journal": "Information (SCOPUS)",
+    "lang": "en",
+    "type": "journal",
+    "coauthors": [
+      "Davis, R.O.",
+      "Vincent, J.",
+      "Lee, Y.J.",
+      "Lee, J.H."
+    ],
+    "role": "교신저자",
+    "keywords": [
+      "hologram",
+      "pedagogical agent",
+      "gesture",
+      "mixed reality"
+    ],
+    "tech": [
+      "홀로그램",
+      "아바타",
+      "MR"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "학습효과"
+    ],
+    "line": "교수학습 에이전트"
+  },
+  {
+    "year": 2025,
+    "id": "2025-3",
+    "title": "확장현실 기반 협력학습에 대한 체계적 문헌 고찰",
+    "journal": "교육정보미디어연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "이선율",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [
+      "확장현실",
+      "XR",
+      "협력학습",
+      "체계적문헌고찰"
+    ],
+    "tech": [
+      "XR"
+    ],
+    "method": [
+      "체계적문헌고찰"
+    ],
+    "target": [],
+    "dv": [
+      "협력학습"
+    ],
+    "line": "메타버스 학습환경"
+  },
+  {
+    "year": 2025,
+    "id": "2025-5",
+    "title": "The impact of task complexity and self-regulated supports on cognitive load and emotional engagement through multimodal analysis in the metaverse learning environment",
+    "journal": "Frontiers in Psychology (SSCI)",
+    "lang": "en",
+    "type": "journal",
+    "coauthors": [],
+    "role": "1저자",
+    "keywords": [
+      "task complexity",
+      "self-regulated learning",
+      "cognitive load",
+      "emotional engagement",
+      "multimodal analysis",
+      "metaverse"
+    ],
+    "tech": [
+      "메타버스"
+    ],
+    "method": [
+      "멀티모달분석"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "인지부하",
+      "정서참여"
+    ],
+    "line": "멀티모달 학습분석"
+  },
+  {
+    "year": 2025,
+    "id": "2025-4",
+    "title": "메타버스 학습환경에서 인지조절 전략 제공 방식과 과제 유형이 대학생의 학습참여와 정서에 미치는 영향",
+    "journal": "교육방법연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [],
+    "role": "단독",
+    "keywords": [
+      "메타버스",
+      "인지조절전략",
+      "학습참여",
+      "정서",
+      "과제유형"
+    ],
+    "tech": [
+      "메타버스"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "학습참여",
+      "정서"
+    ],
+    "line": "메타버스 학습환경"
+  }
+]

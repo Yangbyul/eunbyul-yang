@@ -107,6 +107,29 @@ def compute_stats(pubs, presentations_path=None):
     return stats
 
 
+def check_papers_sync(pubs, papers_path):
+    """Compare CV publication count with papers.json and warn if out of sync."""
+    if not os.path.exists(papers_path):
+        print("  WARNING: papers.json not found. Copy from research-dashboard first.")
+        return
+
+    with open(papers_path, 'r', encoding='utf-8') as f:
+        existing = json.load(f)
+
+    cv_count = len(pubs)
+    db_count = len(existing)
+
+    if cv_count > db_count:
+        diff = cv_count - db_count
+        print(f"  WARNING: CV has {cv_count} publications but papers.json has {db_count}.")
+        print(f"  → {diff} new paper(s) need to be added to data/papers.json manually.")
+        print(f"  → Add entries with keywords, tech, method, target, dv, line fields.")
+    elif cv_count == db_count:
+        print(f"  papers.json: {db_count} entries (in sync with CV)")
+    else:
+        print(f"  NOTE: papers.json ({db_count}) has more entries than CV ({cv_count}).")
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python parse_cv.py <path_to_cv.docx>")
@@ -127,6 +150,10 @@ def main():
     with open(pubs_path, 'w', encoding='utf-8') as f:
         json.dump(pubs, f, ensure_ascii=False, indent=2)
     print(f"  publications.json: {len(pubs)} entries")
+
+    # Check papers.json sync
+    papers_path = os.path.join(data_dir, 'papers.json')
+    check_papers_sync(pubs, papers_path)
 
     # Compute stats
     pres_path = os.path.join(repo_root, 'presentations.json')
