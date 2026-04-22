@@ -273,15 +273,21 @@
   {
     "year": 2020,
     "id": "2020-4",
-    "title": "Effects of auditory feedback and task difficulty on cognitive load and virtual presence in VR dental simulation",
-    "journal": "대한치과의사협회지 (KCI)",
-    "lang": "ko",
+    "title": "Effects of auditory feedback and task difficulty on the cognitive load and virtual presence in a virtual reality dental simulation",
+    "journal": "The Journal of the Korean dental association, 58 (KCI)",
+    "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Kim, B.",
-      "최나연",
-      "김수빈",
-      "류지헌"
+      "Kim",
+      "B",
+      "Yang",
+      "E",
+      "Choi",
+      "N",
+      "Kim",
+      "S",
+      "Ryu",
+      "J"
     ],
     "role": "공저자",
     "keywords": [
@@ -310,14 +316,19 @@
   {
     "year": 2020,
     "id": "2020-5",
-    "title": "The Effects of Joystick-controlling and Walking-around on Navigating a Virtual Space",
-    "journal": "Educational Technology International (KCI)",
+    "title": "The effects of joystick-controlling and walking-around on navigating a virtual space",
+    "journal": "Educational Technology International, 21 (KCI)",
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "류지헌",
-      "Park, S.",
-      "정민영"
+      "Ryu",
+      "J",
+      "Park",
+      "S",
+      "Yang",
+      "E",
+      "Jeong",
+      "M"
     ],
     "role": "공저자",
     "keywords": [
@@ -346,7 +357,7 @@
   {
     "year": 2020,
     "id": "2020-6",
-    "title": "전문교사 양성을 위한 교육대학원 AI융합교육 교육과정에 대한 의미연결망분석",
+    "title": "전문교사 양성을 위한 교육대학원 AI 융합교육 교육과정에 대한 의미연결망분석",
     "journal": "학습자중심교과교육연구 (KCI)",
     "lang": "ko",
     "type": "journal",
@@ -448,27 +459,6 @@
   },
   {
     "year": 2021,
-    "id": "2021-10",
-    "title": "Do we perceive the emotional gender gesture of the virtual avatars as intended?",
-    "journal": "International Journal for Educational Media and Technology, 15",
-    "lang": "en",
-    "type": "journal",
-    "coauthors": [
-      "Yang",
-      "E",
-      "Ryu",
-      "J"
-    ],
-    "role": "1저자",
-    "keywords": [],
-    "tech": [],
-    "method": [],
-    "target": [],
-    "dv": [],
-    "line": ""
-  },
-  {
-    "year": 2021,
     "id": "2021-2",
     "title": "메타버스를 활용한 고등학생 진로체험 프로그램 사용자 경험 분석",
     "journal": "학습자중심교과교육연구 (KCI)",
@@ -537,7 +527,7 @@
   {
     "year": 2021,
     "id": "2021-4",
-    "title": "AI 스피커에 적용된 아바타와 사용자의 성일치 여부와 아바타 구현의 사실성 수준이 사용의도 및 친밀감에 미치는 영향",
+    "title": "AI 스피커에 적용된 아바타와 사용자의 성일치 여부와 구현의 사실성 수준이 사용의도 및 친밀감에 미치는 영향",
     "journal": "디지털콘텐츠학회논문지 (KCI)",
     "lang": "ko",
     "type": "journal",
@@ -572,7 +562,7 @@
   {
     "year": 2021,
     "id": "2021-5",
-    "title": "메타버스 학습환경에서 동료와 교사 아바타가 학습실재감과 시각적 주의집중에 미치는 효과",
+    "title": "메타버스 학습환경에서 동료 아바타와 교사 아바타가 학습실재감과 시각적 주의집중에 미치는 효과",
     "journal": "교육정보미디어연구 (KCI)",
     "lang": "ko",
     "type": "journal",
@@ -640,12 +630,15 @@
   {
     "year": 2021,
     "id": "2021-7",
-    "title": "Do we perceive emotional gender gesture of virtual avatar as intended",
-    "journal": "International Journal for Educational Media and Technology",
+    "title": "Do we perceive the emotional gender gesture of the virtual avatars as intended?",
+    "journal": "International Journal for Educational Media and Technology, 15",
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "류지헌"
+      "Yang",
+      "E",
+      "Ryu",
+      "J"
     ],
     "role": "1저자",
     "keywords": [
@@ -667,24 +660,6 @@
       "정서인식"
     ],
     "line": "교수학습 에이전트"
-  },
-  {
-    "year": 2021,
-    "id": "2021-8",
-    "title": "메타버스 학습환경에서 동료 아바타와 교사 아바타가 학습실재감과 시각적 주의집중에 미치는 효과",
-    "journal": "(KCI)",
-    "lang": "ko",
-    "type": "journal",
-    "coauthors": [
-      "류지헌"
-    ],
-    "role": "1저자",
-    "keywords": [],
-    "tech": [],
-    "method": [],
-    "target": [],
-    "dv": [],
-    "line": ""
   },
   {
     "year": 2021,
@@ -710,40 +685,9 @@
     "line": ""
   },
   {
-    "year": 2021,
-    "id": "2021-iLRN",
-    "title": "Effects of Interactive Conversation On In-Service Teacher Experience in Classroom Simulation",
-    "journal": "iLRN Conference",
-    "lang": "en",
-    "type": "conference",
-    "coauthors": [
-      "류지헌"
-    ],
-    "role": "1저자",
-    "keywords": [
-      "interactive conversation",
-      "classroom simulation",
-      "teacher training"
-    ],
-    "tech": [
-      "VR",
-      "시뮬레이션"
-    ],
-    "method": [
-      "실험연구"
-    ],
-    "target": [
-      "현직교사"
-    ],
-    "dv": [
-      "사용자경험"
-    ],
-    "line": "수업시뮬레이션"
-  },
-  {
     "year": 2022,
     "id": "2022-1",
-    "title": "교사의 성별 및 학교급에 따른 인공지능 교수효능감의 차이",
+    "title": "교사의 성별 및 학교급에 따른 인공지능 교수효능감 차이",
     "journal": "컴퓨터교육학회논문지 (KCI)",
     "lang": "ko",
     "type": "journal",
@@ -842,7 +786,7 @@
   {
     "year": 2022,
     "id": "2022-4",
-    "title": "학부모 상담을 위한 온라인 시뮬레이션에서 시나리오 단계에 따른 교사와 예비교사의 주의집중 및 정서변화 분석",
+    "title": "학부모 상담을 위한 온라인 시뮬레이션에서 시나리오 단계에 따른 교사와 예비교사의 주의집중 및 정서변화 대한 차이 분석",
     "journal": "한국교육학연구 (KCI)",
     "lang": "ko",
     "type": "journal",
@@ -934,37 +878,6 @@
     "line": ""
   },
   {
-    "year": 2022,
-    "id": "2022-iLRN",
-    "title": "The Effect of Students' Perceptions on Intention to use Metaverse Learning Environment",
-    "journal": "iLRN Conference",
-    "lang": "en",
-    "type": "conference",
-    "coauthors": [
-      "류지헌"
-    ],
-    "role": "1저자",
-    "keywords": [
-      "metaverse",
-      "higher education",
-      "usage intention",
-      "perception"
-    ],
-    "tech": [
-      "메타버스"
-    ],
-    "method": [
-      "설문연구"
-    ],
-    "target": [
-      "대학생"
-    ],
-    "dv": [
-      "사용의도"
-    ],
-    "line": "메타버스 학습환경"
-  },
-  {
     "year": 2023,
     "id": "2023-2",
     "title": "가상 시뮬레이션 학습자의 인지부하와 정서를 분석하기 위한 표정 분석 및 뇌전도의 활용",
@@ -1006,14 +919,19 @@
   {
     "year": 2023,
     "id": "2023-3",
-    "title": "How does Dental Students' expertise influence clinical performance and task load in a virtual Dental Lab",
-    "journal": "Journal of Computing in Higher Education (SSCI)",
+    "title": "How does Dental Students’ expertise influence their clinical performance and Perceived Task load in a virtual Dental Lab?",
+    "journal": "Journal of Computing in Higher Education. 35 (SSCI)",
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Park, S.",
-      "류지헌",
-      "임태형"
+      "Yang",
+      "E",
+      "Park",
+      "S",
+      "Ryu",
+      "J",
+      "Lim",
+      "T"
     ],
     "role": "1저자",
     "keywords": [
@@ -1042,7 +960,7 @@
   {
     "year": 2023,
     "id": "2023-4",
-    "title": "XR기반 학습환경에서 디지털트윈을 적용한 아바타와의 협력활동이 사용자의 지각에 미치는 영향",
+    "title": "XR 기반 학습환경에서 디지털트윈을 적용한 아바타와의 협력활동이 사용자의 지각에 미치는 영향",
     "journal": "교육공학연구 (KCI)",
     "lang": "ko",
     "type": "journal",
@@ -1076,7 +994,7 @@
   {
     "year": 2023,
     "id": "2023-5",
-    "title": "ChatGPT를 활용한 텍스트 데이터에서 키워드 추출: 수동방식과의 유사도 비교",
+    "title": "ChatGPT를 활용한 텍스트 데이터에서 키워드 추출: 수동방식과의 유사도 비교를 중심으로",
     "journal": "교육공학연구 (KCI)",
     "lang": "ko",
     "type": "journal",
@@ -1112,33 +1030,20 @@
   },
   {
     "year": 2023,
-    "id": "2023-6",
-    "title": "XR 기반 학습환경에서 디지털트윈을 적용한 아바타와의 협력활동이 사용자의 지각에 미치는 영향",
-    "journal": "(KCI)",
-    "lang": "ko",
-    "type": "journal",
-    "coauthors": [
-      "류지헌"
-    ],
-    "role": "1저자",
-    "keywords": [],
-    "tech": [],
-    "method": [],
-    "target": [],
-    "dv": [],
-    "line": ""
-  },
-  {
-    "year": 2023,
     "id": "2023-FD",
-    "title": "Formative Design of Authentic Scenarios for a VR-Based Parent-Teacher Conference Simulation",
-    "journal": "Springer Book Chapter",
+    "title": "Formative Design of Authentic Scenarios for a Virtual Reality-Based Parent-Teacher Conference Training Simulation. In: Hokanson, B., Schmidt, M., Exter, M.E., Tawfik, A.A., Earnshaw, Y. (eds)",
+    "journal": "Formative Design of Authentic Scenarios for a Virtual Reality-Based Parent-Teacher Conference Training Simulation",
     "lang": "en",
     "type": "book_chapter",
     "coauthors": [
-      "류지헌",
-      "Park, S.",
-      "김국현"
+      "Ryu",
+      "J",
+      "Park",
+      "S",
+      "Yang",
+      "E",
+      "Kim",
+      "K"
     ],
     "role": "공저자",
     "keywords": [
@@ -1166,7 +1071,7 @@
   {
     "year": 2024,
     "id": "2024-1",
-    "title": "게임 기반 학습에서 자기조절 학습 지원전략에 따른 인지적 학습경험의 멀티모달 분석",
+    "title": "게임 기반 학습에서 자기조절 학습 지원전략 유형에 따른 학습자의 인지적 학습경험에 대한 멀티모달 분석",
     "journal": "교육정보미디어연구 (KCI)",
     "lang": "ko",
     "type": "journal",
@@ -1197,13 +1102,17 @@
   {
     "year": 2024,
     "id": "2024-2",
-    "title": "The effects of physical fidelity and task repetition on perceived task load and task performance",
-    "journal": "British Journal of Educational Technology (SSCI)",
+    "title": "The effects of physical fidelity and task repetition on perceived task load and performance in the virtual reality-based training simulation",
+    "journal": "British Journal of Educational Technology, 55 (SSCI)",
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Park, S.",
-      "류지헌"
+      "Yang",
+      "E",
+      "Park",
+      "S",
+      "Ryu",
+      "J"
     ],
     "role": "1저자",
     "keywords": [
@@ -1232,13 +1141,17 @@
   {
     "year": 2025,
     "id": "2025-1",
-    "title": "Designing and Learning with Pedagogical Agents: An Umbrella Review",
-    "journal": "Journal of Educational Computing Research (SSCI)",
+    "title": "Designing and learning with pedagogical agents: An umbrella review",
+    "journal": "Journal of Educational Computing Research, 62 (SSCI)",
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Schroeder, N.L.",
-      "Davis, R.O."
+      "Schroeder",
+      "N. L",
+      "Davis",
+      "R. O",
+      "Yang",
+      "E"
     ],
     "role": "공저자",
     "keywords": [
@@ -1263,17 +1176,23 @@
   {
     "year": 2025,
     "id": "2025-2",
-    "title": "The exploration of combining hologram-like images and pedagogical agent gesturing",
-    "journal": "Information (SCOPUS)",
+    "title": "The Exploration of Combining Hologram-like Images and Pedagogical Agent Gesturing",
+    "journal": "Information, 16 (SCOPUS)",
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Davis, R.O.",
-      "Vincent, J.",
-      "Lee, Y.J.",
-      "Lee, J.H."
+      "Davis",
+      "R. O",
+      "Vincent",
+      "J",
+      "Yang",
+      "E. B",
+      "Lee",
+      "Y. J",
+      "Lee",
+      "J. H"
     ],
-    "role": "교신저자",
+    "role": "공저자",
     "keywords": [
       "hologram",
       "pedagogical agent",
@@ -1361,10 +1280,19 @@
     "year": 2026,
     "id": "2026-1",
     "title": "The impact of task complexity and self-regulated supports on cognitive load and emotional engagement through multimodal analysis in the metaverse learning environment",
-    "journal": "Frontiers in Psychology (SSCI)",
+    "journal": "Frontiers in Psychology. 17 (SSCI)",
     "lang": "en",
     "type": "journal",
-    "coauthors": [],
+    "coauthors": [
+      "Yang",
+      "E",
+      "Ryu",
+      "J",
+      "Choi",
+      "H",
+      "Kim",
+      "I"
+    ],
     "role": "1저자",
     "keywords": [
       "task complexity",

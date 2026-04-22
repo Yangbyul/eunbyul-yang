@@ -154,70 +154,133 @@ def extract_publications(doc):
     return pubs
 
 
+TAG_FIELDS = ('keywords', 'tech', 'method', 'target', 'dv', 'line')
+
+
+def _make_key(year, title):
+    """Create a matching key from year + normalized title fragment."""
+    return f"{year}:{re.sub(r'[^a-z가-힣0-9]', '', title.lower())[:12]}"
+
+
+def _tag_count(paper):
+    """Count how many tag fields are filled in."""
+    total = 0
+    for f in TAG_FIELDS:
+        v = paper.get(f)
+        if isinstance(v, list):
+            total += len(v)
+        elif v:
+            total += 1
+    return total
+
+
+def _merge_tags(dst, src):
+    """Copy non-empty tag values from src into dst (only if dst's field is empty)."""
+    for f in TAG_FIELDS:
+        sv = src.get(f)
+        dv = dst.get(f)
+        if isinstance(dv, list) and not dv and isinstance(sv, list) and sv:
+            dst[f] = sv
+        elif not dv and sv:
+            dst[f] = sv
+
+
 def sync_papers_json(pubs, papers_path):
-    """Auto-add new papers from CV to papers.json. New entries have empty tags."""
+    """Sync papers.json with publications from CV.
+
+    - Adds new papers (with empty tags).
+    - Removes papers that no longer exist in CV.
+    - Deduplicates entries with matching keys (keeps richer tags).
+    - Updates title/metadata from CV while preserving user-edited tags.
+    """
     existing = []
     if os.path.exists(papers_path):
         with open(papers_path, 'r', encoding='utf-8') as f:
             existing = json.load(f)
 
-    # Index existing papers by year+title_fragment for matching
-    existing_index = set()
+    # --- Deduplicate existing papers by key, keeping the one with more tags ---
+    by_key = {}
     for p in existing:
-        # Use first 15 chars of title (lowered, stripped) + year as key
-        key = f"{p['year']}:{re.sub(r'[^a-z가-힣0-9]', '', p['title'].lower())[:12]}"
-        existing_index.add(key)
+        key = _make_key(p['year'], p['title'])
+        if key in by_key:
+            prev = by_key[key]
+            if _tag_count(p) > _tag_count(prev):
+                _merge_tags(p, prev)
+                by_key[key] = p
+            else:
+                _merge_tags(prev, p)
+            print(f"    ~ DEDUP: [{p['year']}] keeping one entry for key {key}")
+        else:
+            by_key[key] = p
 
-    # Find max id per year
+    # --- Match CV publications to existing papers ---
+    result = []
+    added = 0
+    removed_keys = set(by_key.keys())  # track which existing entries are still valid
+
+    # Find max id per year (for assigning ids to new papers)
     max_id = {}
-    for p in existing:
+    for p in by_key.values():
         y = p['year']
         suffix = p['id'].split('-')[-1] if '-' in p['id'] else '0'
         num = int(suffix) if suffix.isdigit() else 0
         max_id[y] = max(max_id.get(y, 0), num)
 
-    added = 0
     for pub in pubs:
         title = pub['title']
         if not title or len(title) < 10:
             continue
 
         year = pub['year']
-        key = f"{year}:{re.sub(r'[^a-z가-힣0-9]', '', title.lower())[:12]}"
+        key = _make_key(year, title)
 
-        if key in existing_index:
-            continue
+        if key in by_key:
+            # Existing paper — update metadata from CV, preserve tags
+            entry = by_key[key]
+            entry['title'] = title
+            # Only update journal if CV extracted a real name (not just index tag)
+            cv_journal = pub['journal_display']
+            if not re.match(r'^\(.*\)$', cv_journal.strip()):
+                entry['journal'] = cv_journal
+            entry['lang'] = pub['lang']
+            entry['type'] = pub['type']
+            entry['coauthors'] = pub['coauthors']
+            entry['role'] = pub['role']
+            result.append(entry)
+            removed_keys.discard(key)
+        else:
+            # New paper — create entry with empty tags
+            max_id[year] = max_id.get(year, 0) + 1
+            new_id = f"{year}-{max_id[year]}"
+            result.append({
+                'year': year,
+                'id': new_id,
+                'title': title,
+                'journal': pub['journal_display'],
+                'lang': pub['lang'],
+                'type': pub['type'],
+                'coauthors': pub['coauthors'],
+                'role': pub['role'],
+                'keywords': [],
+                'tech': [],
+                'method': [],
+                'target': [],
+                'dv': [],
+                'line': '',
+            })
+            added += 1
+            print(f"    + NEW: [{year}] {title[:60]}...")
 
-        # New paper — create entry with empty tags
-        max_id[year] = max_id.get(year, 0) + 1
-        new_id = f"{year}-{max_id[year]}"
-
-        new_entry = {
-            'year': year,
-            'id': new_id,
-            'title': title,
-            'journal': pub['journal_display'],
-            'lang': pub['lang'],
-            'type': pub['type'],
-            'coauthors': pub['coauthors'],
-            'role': pub['role'],
-            'keywords': [],
-            'tech': [],
-            'method': [],
-            'target': [],
-            'dv': [],
-            'line': '',
-        }
-        existing.append(new_entry)
-        existing_index.add(key)
-        added += 1
-        print(f"    + NEW: [{year}] {title[:60]}...")
+    # Report removed papers
+    for key in removed_keys:
+        p = by_key[key]
+        print(f"    - REMOVED: [{p['year']}] {p['title'][:60]}...")
 
     # Sort by year, then id
-    existing.sort(key=lambda p: (p['year'], p['id']))
+    result.sort(key=lambda p: (p['year'], p['id']))
 
     with open(papers_path, 'w', encoding='utf-8') as f:
-        json.dump(existing, f, ensure_ascii=False, indent=2)
+        json.dump(result, f, ensure_ascii=False, indent=2)
 
     return added
 
@@ -270,13 +333,12 @@ def main():
         json.dump(pubs, f, ensure_ascii=False, indent=2)
     print(f"  publications.json: {len(pubs)} entries")
 
-    # 2. Sync papers.json (auto-add new papers with empty tags)
+    # 2. Sync papers.json (add new, remove stale, deduplicate)
     papers_path = os.path.join(data_dir, 'papers.json')
     added = sync_papers_json(pubs, papers_path)
-    if added:
-        print(f"  papers.json: {added} new paper(s) auto-added (tags empty, fill later)")
-    else:
-        print(f"  papers.json: in sync, no new papers")
+    with open(papers_path, 'r', encoding='utf-8') as f:
+        final_count = len(json.load(f))
+    print(f"  papers.json: {final_count} total ({added} added, synced with {len(pubs)} publications)")
 
     # 3. Compute stats
     pres_path = os.path.join(repo_root, 'presentations.json')
