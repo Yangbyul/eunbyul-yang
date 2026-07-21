@@ -96,8 +96,10 @@ def extract_publications(doc):
             if m:
                 title = m.group(1).strip().rstrip('.')
 
-        # Extract journal name from italic runs
+        # Extract journal name from italic runs (drop trailing volume number,
+        # which is italicized together with the journal name in APA style)
         journal_name = ' '.join(italic_texts).strip(' .,') if italic_texts else ''
+        journal_name = re.sub(r'[,.]?\s*\d+$', '', journal_name).strip(' .,')
 
         # Extract coauthors
         author_part = text.split('(')[0] if '(' in text else ''
