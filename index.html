@@ -463,7 +463,7 @@ Promise.all([
       meta: p.journal_display.replace(/\s*\([^)]+\)\s*$/, ''),
       badge: p.index, badgeClass: 'badge-ssci'
     }));
-  const cards = [...manual, ...pubCards].sort((a, b) => b.year - a.year).slice(0, 4);
+  const cards = [...manual, ...pubCards].sort((a, b) => b.year - a.year).slice(0, 3);
   document.getElementById('highlightGrid').innerHTML = cards.map(c => `
     <div class="highlight-card">
       <div class="year">${c.year} &mdash; ${c.type}</div>
