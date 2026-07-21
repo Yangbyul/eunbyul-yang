@@ -677,12 +677,24 @@
       "J"
     ],
     "role": "1저자",
-    "keywords": [],
-    "tech": [],
-    "method": [],
-    "target": [],
-    "dv": [],
-    "line": ""
+    "keywords": [
+      "classroom simulation",
+      "interactive conversation",
+      "teacher training"
+    ],
+    "tech": [
+      "시뮬레이션"
+    ],
+    "method": [
+      "실험연구"
+    ],
+    "target": [
+      "교사"
+    ],
+    "dv": [
+      "사용자경험"
+    ],
+    "line": "수업시뮬레이션"
   },
   {
     "year": 2022,
@@ -870,12 +882,24 @@
       "J"
     ],
     "role": "공저자",
-    "keywords": [],
-    "tech": [],
-    "method": [],
-    "target": [],
-    "dv": [],
-    "line": ""
+    "keywords": [
+      "metaverse",
+      "intention to use",
+      "higher education"
+    ],
+    "tech": [
+      "메타버스"
+    ],
+    "method": [
+      "설문연구"
+    ],
+    "target": [
+      "대학생"
+    ],
+    "dv": [
+      "사용의도"
+    ],
+    "line": "메타버스 학습환경"
   },
   {
     "year": 2023,
