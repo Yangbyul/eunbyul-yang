@@ -1316,5 +1316,42 @@
       "정서참여"
     ],
     "line": "멀티모달 학습분석"
+  },
+  {
+    "year": 2026,
+    "id": "2026-2",
+    "title": "공공교육자료 활용 경험에 대한 학교급별 학생 인식분석",
+    "journal": "교육정보미디어연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "윤이현",
+      "류지헌"
+    ],
+    "role": "공저자",
+    "keywords": [],
+    "tech": [],
+    "method": [],
+    "target": [],
+    "dv": [],
+    "line": ""
+  },
+  {
+    "year": 2026,
+    "id": "2026-3",
+    "title": "공간컴퓨팅 학습환경에서의 학습자 공간적 상호작용 분석 연구 동향: 주제범위 문헌 고찰",
+    "journal": "교육정보미디어연구 (KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자",
+    "keywords": [],
+    "tech": [],
+    "method": [],
+    "target": [],
+    "dv": [],
+    "line": ""
   }
 ]

@@ -108,6 +108,37 @@
     "role": "1저자"
   },
   {
+    "citation": "윤이현, 양은별, 류지헌 (2026). 공공교육자료 활용 경험에 대한 학교급별 학생 인식분석. 교육정보미디어연구, 32(3).",
+    "year": 2026,
+    "category": "KCI",
+    "index": "KCI",
+    "first_author": false,
+    "title": "공공교육자료 활용 경험에 대한 학교급별 학생 인식분석",
+    "journal_display": "(KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "윤이현",
+      "류지헌"
+    ],
+    "role": "공저자"
+  },
+  {
+    "citation": "양은별, 류지헌 (2026). 공간컴퓨팅 학습환경에서의 학습자 공간적 상호작용 분석 연구 동향: 주제범위 문헌 고찰. 교육정보미디어연구, 32(3).",
+    "year": 2026,
+    "category": "KCI",
+    "index": "KCI",
+    "first_author": true,
+    "title": "공간컴퓨팅 학습환경에서의 학습자 공간적 상호작용 분석 연구 동향: 주제범위 문헌 고찰",
+    "journal_display": "(KCI)",
+    "lang": "ko",
+    "type": "journal",
+    "coauthors": [
+      "류지헌"
+    ],
+    "role": "1저자"
+  },
+  {
     "citation": "이선율, 양은별, 류지헌 (2025). 확장현실 기반 협력학습에 대한 체계적 문헌 고찰. 교육정보미디어연구, 31(2), 519-537.",
     "year": 2025,
     "category": "KCI",
