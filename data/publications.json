@@ -578,13 +578,13 @@
     "role": "공저자"
   },
   {
-    "citation": "Yang, E., & Ryu, J. (2021). Do we perceive the emotional gender gesture of the virtual avatars as intended? International Journal for Educational Media and Technology, 15(1), 129-139. [국외기타]",
+    "citation": "Yang, E., & Ryu, J. (2021). Do we perceive the emotional gender gesture of the virtual avatars as intended? International Journal for Educational Media and Technology, 15(1), 129-139. [기타]",
     "year": 2021,
     "category": "OTHERS",
-    "index": "OTHERS",
+    "index": "기타",
     "first_author": true,
     "title": "Do we perceive the emotional gender gesture of the virtual avatars as intended?",
-    "journal_display": "International Journal for Educational Media and Technology, 15",
+    "journal_display": "International Journal for Educational Media and Technology, 15 (기타)",
     "lang": "en",
     "type": "journal",
     "coauthors": [
