@@ -158,7 +158,7 @@ def extract_publications(doc):
     return pubs
 
 
-TAG_FIELDS = ('keywords', 'tech', 'method', 'target', 'dv', 'line')
+TAG_FIELDS = ('keywords', 'tech', 'method', 'technique', 'target', 'dv', 'line')
 
 
 def _make_key(year, title):
@@ -268,6 +268,7 @@ def sync_papers_json(pubs, papers_path):
                 'keywords': [],
                 'tech': [],
                 'method': [],
+                'technique': [],
                 'target': [],
                 'dv': [],
                 'line': '',
