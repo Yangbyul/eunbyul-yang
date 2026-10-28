@@ -1,5 +1,23 @@
 [
   {
+    "year": 2026,
+    "authors": "Yang, E.",
+    "title": "From spatial interaction data to learning evidence: Trends and gaps in spatial computing research in education",
+    "type": "Panel",
+    "venue": "ICoME 2026",
+    "location": "Honolulu, HI, USA",
+    "scope": "intl"
+  },
+  {
+    "year": 2026,
+    "authors": "Kim, K., Han, D., Yang, E., & Ryu, J.",
+    "title": "Analysis of attention based on gaze and head movements under task difficulty in an XR diagnostic simulation",
+    "type": "Paper",
+    "venue": "iLRN 2026",
+    "location": "Athens, Greece",
+    "scope": "intl"
+  },
+  {
     "year": 2025,
     "authors": "Lee, S., Yang, E., Chae, M., Ahan, M., & Ryu, J.",
     "title": "High-fidelity collaborative simulation training in extended reality for emergency medical team leaders",
