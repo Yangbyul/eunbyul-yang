@@ -105,6 +105,8 @@ def extract_publications(doc):
         author_part = text.split('(')[0] if '(' in text else ''
         coauthors = []
         if author_part:
+            # 'Yang, E.' contains a comma — remove it before splitting
+            author_part = re.sub(r'Yang,\s*E\.?(\s*B\.)?', '', author_part)
             authors = re.split(r'[,&]', author_part)
             for a in authors:
                 a = a.strip().strip('.')

@@ -280,8 +280,6 @@
     "coauthors": [
       "Kim",
       "B",
-      "Yang",
-      "E",
       "Choi",
       "N",
       "Kim",
@@ -325,8 +323,6 @@
       "J",
       "Park",
       "S",
-      "Yang",
-      "E",
       "Jeong",
       "M"
     ],
@@ -635,8 +631,6 @@
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Yang",
-      "E",
       "Ryu",
       "J"
     ],
@@ -669,8 +663,6 @@
     "lang": "en",
     "type": "conference",
     "coauthors": [
-      "Yang",
-      "E",
       "Kim",
       "C",
       "Ryu",
@@ -876,8 +868,6 @@
     "coauthors": [
       "Kim",
       "K",
-      "Yang",
-      "E",
       "Ryu",
       "J"
     ],
@@ -948,8 +938,6 @@
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Yang",
-      "E",
       "Park",
       "S",
       "Ryu",
@@ -1064,8 +1052,6 @@
       "J",
       "Park",
       "S",
-      "Yang",
-      "E",
       "Kim",
       "K"
     ],
@@ -1131,8 +1117,6 @@
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Yang",
-      "E",
       "Park",
       "S",
       "Ryu",
@@ -1173,9 +1157,7 @@
       "Schroeder",
       "N. L",
       "Davis",
-      "R. O",
-      "Yang",
-      "E"
+      "R. O"
     ],
     "role": "공저자",
     "keywords": [
@@ -1209,8 +1191,6 @@
       "R. O",
       "Vincent",
       "J",
-      "Yang",
-      "E. B",
       "Lee",
       "Y. J",
       "Lee",
@@ -1308,8 +1288,6 @@
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Yang",
-      "E",
       "Ryu",
       "J",
       "Choi",
@@ -1404,5 +1382,37 @@
       "공간적상호작용"
     ],
     "line": "공간컴퓨팅"
+  },
+  {
+    "year": 2026,
+    "id": "2026-4",
+    "title": "Latent profiles of workload in pre-service elementary teachers' teaching demonstrations: Associations with flow and perceived competence",
+    "journal": "Educational Technology International (KCI)",
+    "lang": "en",
+    "type": "journal",
+    "coauthors": [],
+    "role": "단독",
+    "keywords": [
+      "예비교사",
+      "수업시연",
+      "과제부하",
+      "몰입",
+      "지각된유능감",
+      "잠재프로파일분석"
+    ],
+    "tech": [],
+    "method": [
+      "설문연구",
+      "잠재프로파일분석"
+    ],
+    "target": [
+      "예비교사"
+    ],
+    "dv": [
+      "과제부하",
+      "몰입",
+      "지각된유능감"
+    ],
+    "line": "수업시뮬레이션"
   }
 ]

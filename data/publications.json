@@ -10,8 +10,6 @@
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Yang",
-      "E",
       "Ryu",
       "J",
       "Choi",
@@ -35,9 +33,7 @@
       "Schroeder",
       "N. L",
       "Davis",
-      "R. O",
-      "Yang",
-      "E"
+      "R. O"
     ],
     "role": "공저자"
   },
@@ -56,8 +52,6 @@
       "R. O",
       "Vincent",
       "J",
-      "Yang",
-      "E. B",
       "Lee",
       "Y. J",
       "Lee",
@@ -76,8 +70,6 @@
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Yang",
-      "E",
       "Park",
       "S",
       "Ryu",
@@ -96,8 +88,6 @@
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Yang",
-      "E",
       "Park",
       "S",
       "Ryu",
@@ -106,6 +96,19 @@
       "T"
     ],
     "role": "1저자"
+  },
+  {
+    "citation": "Yang, E. (2026). Latent profiles of workload in pre-service elementary teachers' teaching demonstrations: Associations with flow and perceived competence. Educational Technology International, 27(2), 345-380.",
+    "year": 2026,
+    "category": "KCI",
+    "index": "KCI",
+    "first_author": true,
+    "title": "Latent profiles of workload in pre-service elementary teachers' teaching demonstrations: Associations with flow and perceived competence",
+    "journal_display": "Educational Technology International (KCI)",
+    "lang": "en",
+    "type": "journal",
+    "coauthors": [],
+    "role": "단독"
   },
   {
     "citation": "윤이현, 양은별, 류지헌 (2026). 공공교육자료 활용 경험에 대한 학교급별 학생 인식분석. 교육정보미디어연구, 32(3), 1689-1709.",
@@ -453,8 +456,6 @@
     "coauthors": [
       "Kim",
       "B",
-      "Yang",
-      "E",
       "Choi",
       "N",
       "Kim",
@@ -479,8 +480,6 @@
       "J",
       "Park",
       "S",
-      "Yang",
-      "E",
       "Jeong",
       "M"
     ],
@@ -588,8 +587,6 @@
     "lang": "en",
     "type": "journal",
     "coauthors": [
-      "Yang",
-      "E",
       "Ryu",
       "J"
     ],
@@ -639,8 +636,6 @@
     "coauthors": [
       "Kim",
       "K",
-      "Yang",
-      "E",
       "Ryu",
       "J"
     ],
@@ -657,8 +652,6 @@
     "lang": "en",
     "type": "conference",
     "coauthors": [
-      "Yang",
-      "E",
       "Kim",
       "C",
       "Ryu",
@@ -681,8 +674,6 @@
       "J",
       "Park",
       "S",
-      "Yang",
-      "E",
       "Kim",
       "K"
     ],
